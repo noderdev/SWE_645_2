@@ -1,0 +1,122 @@
+/* This is the CSS for the student Survey form */
+@charset "UTF-8";
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+body {
+  font-family: "Calibri", sans-serif;
+  color: #384047;
+  background-image: url("https://images.unsplash.com/photo-1695051745201-75716458c124?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80");
+}
+
+form {
+  max-width: 330px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #efe5da;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 17px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 16px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 28px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+fieldset {
+  margin-bottom: 31px;
+  border: none;
+}
+
+
+
+button {
+  padding: 20px 40px 17px 40px;
+  color: #fff;
+  background-color: #699877;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #d5e6da;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 5px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 32px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+@media screen and (min-width: 480px) {
+  form {
+    max-width: 480px;
+  }
+}
